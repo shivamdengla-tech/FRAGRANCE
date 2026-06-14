@@ -349,6 +349,61 @@ button { font-family: inherit; cursor: pointer; }
 .section--light .capture__msg { color: var(--terracotta); }
 
 /* ============================================================
+   2. THE MEMORY IDEA
+   ============================================================ */
+.memory {
+  background: var(--soot);
+  color: var(--raw-paper);
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.memory__inner {
+  position: relative;
+  z-index: 2;
+  max-width: var(--maxw);
+  margin: 0 auto;
+}
+.memory .eyebrow { color: var(--oat); }
+.memory__title {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(2.2rem, 5.4vw, 4.4rem);
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  margin: 0 0 56px;
+  max-width: 14ch;
+}
+.memory__title em { font-style: italic; font-weight: 400; color: var(--brass); }
+.memory__cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  max-width: 920px;
+  margin-left: auto;
+}
+.memory__lede {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+  line-height: 1.45;
+  color: var(--raw-paper);
+  margin: 0;
+}
+.memory__body {
+  font-size: 1.02rem;
+  color: var(--paper-70);
+  margin: 0;
+}
+.watermark--memory {
+  top: 8%; right: -3%;
+  font-size: clamp(6rem, 22vw, 20rem);
+}
+
+@media (max-width: 720px) {
+  .memory__cols { grid-template-columns: 1fr; gap: 28px; }
+}
+
+/* ============================================================
    STUBS (temporary — replaced section by section)
    ============================================================ */
 .section {
