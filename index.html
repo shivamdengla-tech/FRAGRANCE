@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vaasana — scent is memory, made wearable</title>
+  <meta name="description" content="Vaasana — a premium Indian perfume brand born in Kannauj. Scent is memory, made wearable. Join the founding 500." />
+
+  <!-- Fonts: Playfair Display (editorial serif) + Inter (wide-tracked sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ============================================================
+       FLOATING FROSTED NAV
+       ============================================================ -->
+  <header class="nav" id="nav">
+    <nav class="nav__inner" aria-label="Primary">
+      <a class="nav__brand" href="#hero">Vaasana</a>
+      <ul class="nav__links">
+        <li><a href="#collection">The collection</a></li>
+        <li><a href="#story">Story</a></li>
+        <li><a href="#kannauj">Kannauj</a></li>
+      </ul>
+      <a class="nav__pill" href="#waitlist">Waitlist</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============================================================
+         1. HERO
+         ============================================================ -->
+    <section class="hero section--dark" id="hero">
+      <span class="watermark watermark--hero" aria-hidden="true">vaasana</span>
+
+      <div class="hero__grid">
+        <div class="hero__copy reveal">
+          <p class="eyebrow">born in Kannauj</p>
+          <h1 class="hero__title">
+            scent is memory,<br /><em>made wearable.</em>
+          </h1>
+          <p class="hero__lede">
+            A perfume house reviving the thousand-year-old craft of Kannauj —
+            slow-distilled, daily-wearable, and built to linger long after you've left the room.
+          </p>
+
+          <!-- Quiet email capture (hero) -->
+          <form class="capture" data-capture aria-label="Join the waitlist">
+            <label class="visually-hidden" for="hero-email">Email address</label>
+            <input
+              class="capture__input"
+              id="hero-email"
+              name="email"
+              type="email"
+              inputmode="email"
+              autocomplete="email"
+              placeholder="your email"
+              required
+            />
+            <button class="capture__btn" type="submit">Join the waitlist</button>
+            <p class="capture__msg" data-capture-msg role="status" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="hero__media reveal">
+          <figure class="media-frame" data-img="hero">
+            <!-- img injected from IMG config in app.js -->
+          </figure>
+        </div>
+      </div>
+
+      <span class="scroll-hint" aria-hidden="true">scroll</span>
+    </section>
+
+    <!-- ============================================================
+         2. THE MEMORY IDEA  (placeholder — built next)
+         ============================================================ -->
+    <section class="section section--light" id="story" data-stub>
+      <span class="watermark" aria-hidden="true">memory</span>
+      <p class="stub-note">The memory idea — coming next.</p>
+    </section>
+
+    <!-- ============================================================
+         3. THE CRAFT  (placeholder)
+         ============================================================ -->
+    <section class="section section--dark" id="kannauj" data-stub>
+      <span class="watermark" aria-hidden="true">craft</span>
+      <p class="stub-note">The craft — coming next.</p>
+    </section>
+
+    <!-- ============================================================
+         4. THE COLLECTION  (placeholder)
+         ============================================================ -->
+    <section class="section section--light" id="collection" data-stub>
+      <span class="watermark" aria-hidden="true">collection</span>
+      <p class="stub-note">The collection — coming next.</p>
+    </section>
+
+    <!-- ============================================================
+         5. SUSTAINABILITY  (placeholder)
+         ============================================================ -->
+    <section class="section section--dark" id="sustainability" data-stub>
+      <span class="watermark" aria-hidden="true">honest</span>
+      <p class="stub-note">Sustainability — coming next.</p>
+    </section>
+
+    <!-- ============================================================
+         6. FIND YOUR SCENT  (placeholder)
+         ============================================================ -->
+    <section class="section section--light" id="find" data-stub>
+      <span class="watermark" aria-hidden="true">listen</span>
+      <p class="stub-note">Find your scent — coming next.</p>
+    </section>
+
+    <!-- ============================================================
+         7. WAITLIST + FOOTER  (placeholder)
+         ============================================================ -->
+    <section class="section section--dark" id="waitlist" data-stub>
+      <span class="watermark" aria-hidden="true">first 500</span>
+      <p class="stub-note">Waitlist &amp; footer — coming next.</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
