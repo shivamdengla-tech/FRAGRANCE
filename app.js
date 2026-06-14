@@ -15,55 +15,69 @@
    from { w, h, keywords }.
 
    In markup, attach an image with:  <figure data-img="hero"></figure>
+
+   NOTE ON THE `src` URLS BELOW:
+   These are hand-picked images.unsplash.com photo IDs (the non-deprecated,
+   reliable Unsplash pattern — source.unsplash.com is deprecated). They were
+   selected to match each section; if any one doesn't fit your taste, grab a
+   different photo from unsplash.com, copy its photo-XXXX id, and pass it to
+   u("photo-XXXX", w, h). To fall back to a live keyword search instead, set
+   that entry's `src: null` and the `keywords` above will be used.
    ------------------------------------------------------------ */
+
+/* Build a sized, cropped images.unsplash.com URL from a photo id. */
+function u(id, w, h) {
+  return `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&h=${h}&q=80`;
+}
+
 const IMAGES = {
   hero: {
     w: 1600, h: 1200,
     keywords: "perfume,bottle,dark,moody",
     alt: "A dark, moody studio shot of a Vaasana perfume bottle",
-    src: null,
+    src: u("photo-1592945403244-b3fbafd7f539", 1600, 1200),
   },
   baarish: {
     w: 800, h: 1000,
     keywords: "perfume,bottle,dark",
     alt: "Baarish perfume bottle on a dark surface",
-    src: null,
+    src: u("photo-1541643600914-78b084683601", 800, 1000),
   },
   riwaayat: {
     w: 800, h: 1000,
     keywords: "amber,perfume,bottle",
     alt: "Riwaayat perfume bottle glowing amber",
-    src: null,
+    src: u("photo-1615634260167-c8cdede054de", 800, 1000),
   },
   noon: {
     w: 800, h: 1000,
     keywords: "perfume,minimal,clear",
     alt: "Noon perfume bottle, clean and minimal in clear glass",
-    src: null,
+    src: u("photo-1588405748880-12d1d2a59f75", 800, 1000),
   },
   craftStill: {
     w: 1200, h: 800,
     keywords: "copper,still,distillation",
     alt: "A copper still used in traditional deg-bhapka distillation",
-    src: null,
+    src: u("photo-1510626176961-4b57d4fbad03", 1200, 800),
   },
   craftRain: {
     w: 1200, h: 800,
     keywords: "monsoon,rain,earth",
     alt: "Monsoon rain falling on dry earth",
-    src: null,
+    src: u("photo-1428592953211-077101b2021b", 1200, 800),
   },
   petals: {
     w: 1200, h: 800,
     keywords: "rose,petals,marigold",
     alt: "Rose petals and marigold flowers scattered",
-    src: null,
+    src: u("photo-1597848212624-a19eb35e2651", 1600, 900),
   },
   sustainability: {
     w: 1200, h: 800,
     keywords: "nature,leaves,green",
     alt: "Fresh green leaves in soft natural light",
-    src: null,
+    src: u("photo-1466692476868-aef1dfb1e735", 1200, 800),
   },
 };
 

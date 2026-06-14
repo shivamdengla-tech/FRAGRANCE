@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="5180" viewBox="0 0 1200 5180" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a2722"/><stop offset="1" stop-color="#1b1916"/>
+    </linearGradient>
+    <linearGradient id="bottle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C9BFA8"/><stop offset="1" stop-color="#9C6B3C"/>
+    </linearGradient>
+    <linearGradient id="atmos" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5a4632"/><stop offset="1" stop-color="#2c2118"/>
+    </linearGradient>
+    <pattern id="grain" width="7" height="7" patternUnits="userSpaceOnUse">
+      <rect width="7" height="7" fill="#EFE9DC"/>
+      <circle cx="1" cy="1" r="0.6" fill="#A8997E" opacity="0.18"/>
+      <circle cx="4" cy="4" r="0.5" fill="#A8997E" opacity="0.12"/>
+    </pattern>
+    <symbol id="flask" viewBox="0 0 100 240">
+      <rect x="42" y="6" width="16" height="26" rx="3" fill="#C9A86A"/>
+      <rect x="46" y="30" width="8" height="20" fill="#C9A86A" opacity="0.85"/>
+      <rect x="18" y="48" width="64" height="184" rx="22" fill="url(#bottle)"/>
+      <rect x="26" y="58" width="14" height="150" rx="8" fill="#EFE9DC" opacity="0.16"/>
+    </symbol>
+  </defs>
+
+  <!-- ============ 1. HERO ============ -->
+  <rect x="0" y="0" width="1200" height="760" fill="#211E1A"/>
+  <text x="60" y="690" font-family="Playfair Display, Georgia, serif" font-size="240" font-weight="600" fill="#EFE9DC" opacity="0.04">vaasana</text>
+  <!-- nav -->
+  <rect x="100" y="26" width="1000" height="58" rx="29" fill="#2c2925" stroke="#EFE9DC" stroke-opacity="0.16"/>
+  <text x="130" y="63" font-family="Playfair Display, Georgia, serif" font-size="26" fill="#EFE9DC" letter-spacing="2">Vaasana</text>
+  <text x="640" y="61" font-size="14" fill="#EFE9DC" opacity="0.7" letter-spacing="1">The collection</text>
+  <text x="790" y="61" font-size="14" fill="#EFE9DC" opacity="0.7" letter-spacing="1">Story</text>
+  <text x="880" y="61" font-size="14" fill="#EFE9DC" opacity="0.7" letter-spacing="1">Kannauj</text>
+  <rect x="968" y="38" width="106" height="34" rx="17" fill="#C9A86A"/>
+  <text x="1021" y="60" font-size="14" fill="#211E1A" text-anchor="middle" letter-spacing="1">Waitlist</text>
+  <!-- copy -->
+  <text x="120" y="250" font-size="14" fill="#C9BFA8" letter-spacing="5">BORN IN KANNAUJ</text>
+  <text x="118" y="345" font-family="Playfair Display, Georgia, serif" font-size="76" font-weight="500" fill="#EFE9DC">scent is memory,</text>
+  <text x="118" y="425" font-family="Playfair Display, Georgia, serif" font-size="76" font-weight="400" font-style="italic" fill="#C9A86A">made wearable.</text>
+  <text x="120" y="485" font-size="19" fill="#EFE9DC" opacity="0.7">Reviving the thousand-year-old craft of Kannauj — slow-distilled,</text>
+  <text x="120" y="513" font-size="19" fill="#EFE9DC" opacity="0.7">daily-wearable, built to linger after you've left the room.</text>
+  <!-- capture -->
+  <rect x="120" y="560" width="300" height="54" rx="27" fill="#EFE9DC" fill-opacity="0.06" stroke="#EFE9DC" stroke-opacity="0.2"/>
+  <text x="145" y="593" font-size="16" fill="#EFE9DC" opacity="0.45">your email</text>
+  <rect x="430" y="560" width="200" height="54" rx="27" fill="#C9A86A"/>
+  <text x="530" y="593" font-size="16" fill="#211E1A" text-anchor="middle">Join the waitlist</text>
+  <!-- media -->
+  <rect x="720" y="150" width="380" height="475" rx="22" fill="url(#frame)"/>
+  <use href="#flask" x="820" y="225" width="180" height="320"/>
+
+  <!-- ============ 2. MEMORY ============ -->
+  <rect x="0" y="760" width="1200" height="520" fill="#211E1A"/>
+  <text x="980" y="1010" font-family="Playfair Display, Georgia, serif" font-size="200" font-weight="600" fill="#EFE9DC" opacity="0.035" text-anchor="end">memory</text>
+  <text x="120" y="870" font-size="13" fill="#C9BFA8" letter-spacing="5">THE IDEA</text>
+  <text x="118" y="955" font-family="Playfair Display, Georgia, serif" font-size="60" font-weight="500" fill="#EFE9DC">you can't smell <tspan font-style="italic" fill="#C9A86A">a screen.</tspan></text>
+  <text x="120" y="1055" font-family="Playfair Display, Georgia, serif" font-style="italic" font-size="24" fill="#EFE9DC">Of all the senses, scent is wired</text>
+  <text x="120" y="1090" font-family="Playfair Display, Georgia, serif" font-style="italic" font-size="24" fill="#EFE9DC">straight to memory — before thought,</text>
+  <text x="120" y="1125" font-family="Playfair Display, Georgia, serif" font-style="italic" font-size="24" fill="#EFE9DC">before language.</text>
+  <text x="640" y="1052" font-size="16" fill="#EFE9DC" opacity="0.7">One note can return you to a monsoon</text>
+  <text x="640" y="1080" font-size="16" fill="#EFE9DC" opacity="0.7">afternoon, a grandmother's wrist. Not a</text>
+  <text x="640" y="1108" font-size="16" fill="#EFE9DC" opacity="0.7">fragrance you wear — a memory you carry,</text>
+  <text x="640" y="1136" font-size="16" fill="#EFE9DC" opacity="0.7">and leave behind.</text>
+
+  <!-- ============ ATMOS BAND ============ -->
+  <rect x="0" y="1280" width="1200" height="300" fill="url(#atmos)"/>
+  <rect x="0" y="1280" width="1200" height="300" fill="#211E1A" opacity="0.5"/>
+  <text x="600" y="1420" font-family="Playfair Display, Georgia, serif" font-size="48" font-weight="500" fill="#EFE9DC" text-anchor="middle">every note is</text>
+  <text x="600" y="1480" font-family="Playfair Display, Georgia, serif" font-size="48" font-style="italic" fill="#C9A86A" text-anchor="middle">a place you've been.</text>
+
+  <!-- ============ 3. CRAFT ============ -->
+  <rect x="0" y="1580" width="1200" height="900" fill="#EFE9DC"/>
+  <rect x="0" y="1580" width="1200" height="900" fill="url(#grain)" opacity="0.5"/>
+  <text x="120" y="1670" font-size="13" fill="#A8997E" letter-spacing="5">THE CRAFT · KANNAUJ</text>
+  <text x="118" y="1750" font-family="Playfair Display, Georgia, serif" font-size="58" font-weight="500" fill="#211E1A">a thousand years,</text>
+  <text x="118" y="1820" font-family="Playfair Display, Georgia, serif" font-size="58" font-style="italic" font-weight="400" fill="#9C6B3C">distilled slowly.</text>
+  <text x="120" y="1875" font-size="17" fill="#211E1A" opacity="0.6">We make scent the way Kannauj has for a millennium — the deg-bhapka method.</text>
+  <text x="120" y="1902" font-size="17" fill="#211E1A" opacity="0.6">Copper vessels, gentle fire, vapour caught in sandalwood. Nothing wasted.</text>
+  <!-- two images -->
+  <rect x="120" y="1950" width="540" height="300" rx="22" fill="url(#frame)"/>
+  <text x="390" y="2110" font-size="15" fill="#EFE9DC" opacity="0.5" text-anchor="middle">copper still · distillation</text>
+  <rect x="680" y="1950" width="400" height="300" rx="22" fill="url(#atmos)"/>
+  <text x="880" y="2110" font-size="15" fill="#EFE9DC" opacity="0.6" text-anchor="middle">monsoon · rain · earth</text>
+  <!-- heart line -->
+  <text x="600" y="2330" font-family="Playfair Display, Georgia, serif" font-size="46" font-weight="500" fill="#211E1A" text-anchor="middle">the way it's made is <tspan font-style="italic" fill="#9C6B3C">why it stays with you.</tspan></text>
+  <line x1="120" y1="2390" x2="1080" y2="2390" stroke="#211E1A" stroke-opacity="0.15"/>
+  <text x="200" y="2440" font-family="Playfair Display, Georgia, serif" font-style="italic" font-size="26" fill="#211E1A" text-anchor="middle">1,000 years</text>
+  <text x="200" y="2466" font-size="14" fill="#211E1A" opacity="0.55" text-anchor="middle">a living craft</text>
+  <text x="600" y="2440" font-family="Playfair Display, Georgia, serif" font-style="italic" font-size="26" fill="#211E1A" text-anchor="middle">low energy</text>
+  <text x="600" y="2466" font-size="14" fill="#211E1A" opacity="0.55" text-anchor="middle">gentle fire, no shortcuts</text>
+  <text x="1000" y="2440" font-family="Playfair Display, Georgia, serif" font-style="italic" font-size="26" fill="#211E1A" text-anchor="middle">nothing wasted</text>
+  <text x="1000" y="2466" font-size="14" fill="#211E1A" opacity="0.55" text-anchor="middle">every botanical earns it</text>
+
+  <!-- ============ 4. COLLECTION ============ -->
+  <rect x="0" y="2480" width="1200" height="900" fill="#211E1A"/>
+  <text x="120" y="2570" font-size="13" fill="#C9BFA8" letter-spacing="5">THE COLLECTION</text>
+  <text x="118" y="2650" font-family="Playfair Display, Georgia, serif" font-size="58" font-weight="500" fill="#EFE9DC">three memories, <tspan font-style="italic" fill="#C9A86A">bottled.</tspan></text>
+  <text x="120" y="2700" font-size="16" fill="#EFE9DC" opacity="0.7">Premium, daily-wearable, ₹1,299–2,499.</text>
+  <!-- card template x3 -->
+  <g>
+    <!-- card 1 Baarish -->
+    <rect x="120" y="2750" width="300" height="560" rx="22" fill="#EFE9DC" fill-opacity="0.04" stroke="#EFE9DC" stroke-opacity="0.1"/>
+    <rect x="120" y="2750" width="300" height="300" rx="22" fill="url(#frame)"/>
+    <use href="#flask" x="210" y="2800" width="120" height="210"/>
+    <text x="145" y="3100" font-family="Playfair Display, Georgia, serif" font-size="30" fill="#EFE9DC">Baarish</text>
+    <text x="145" y="3128" font-family="Playfair Display, Georgia, serif" font-style="italic" font-size="15" fill="#C9A86A">the first rain on dry earth</text>
+    <text x="145" y="3170" font-size="11" fill="#A8997E" letter-spacing="2">TOP</text>
+    <text x="210" y="3170" font-size="13" fill="#EFE9DC" opacity="0.7">bergamot, petitgrain, wet-air</text>
+    <text x="145" y="3210" font-size="11" fill="#A8997E" letter-spacing="2">HEART</text>
+    <text x="210" y="3210" font-size="13" fill="#EFE9DC" opacity="0.7">mitti attar, vetiver, geranium</text>
+    <text x="145" y="3250" font-size="11" fill="#A8997E" letter-spacing="2">BASE</text>
+    <text x="210" y="3250" font-size="13" fill="#EFE9DC" opacity="0.7">cedar, oakmoss, white musk</text>
+    <!-- card 2 Riwaayat -->
+    <rect x="450" y="2750" width="300" height="560" rx="22" fill="#EFE9DC" fill-opacity="0.04" stroke="#EFE9DC" stroke-opacity="0.1"/>
+    <rect x="450" y="2750" width="300" height="300" rx="22" fill="url(#atmos)"/>
+    <use href="#flask" x="540" y="2800" width="120" height="210"/>
+    <text x="475" y="3100" font-family="Playfair Display, Georgia, serif" font-size="30" fill="#EFE9DC">Riwaayat</text>
+    <text x="475" y="3128" font-family="Playfair Display, Georgia, serif" font-style="italic" font-size="15" fill="#C9A86A">warmth you inherit, not buy</text>
+    <text x="475" y="3170" font-size="11" fill="#A8997E" letter-spacing="2">TOP</text>
+    <text x="540" y="3170" font-size="13" fill="#EFE9DC" opacity="0.7">saffron, pink pepper</text>
+    <text x="475" y="3210" font-size="11" fill="#A8997E" letter-spacing="2">HEART</text>
+    <text x="540" y="3210" font-size="13" fill="#EFE9DC" opacity="0.7">Kannauj rose, jasmine</text>
+    <text x="475" y="3250" font-size="11" fill="#A8997E" letter-spacing="2">BASE</text>
+    <text x="540" y="3250" font-size="13" fill="#EFE9DC" opacity="0.7">sandalwood, amber, oud</text>
+    <!-- card 3 Noon -->
+    <rect x="780" y="2750" width="300" height="560" rx="22" fill="#EFE9DC" fill-opacity="0.04" stroke="#EFE9DC" stroke-opacity="0.1"/>
+    <rect x="780" y="2750" width="300" height="300" rx="22" fill="url(#frame)"/>
+    <use href="#flask" x="870" y="2800" width="120" height="210"/>
+    <text x="805" y="3100" font-family="Playfair Display, Georgia, serif" font-size="30" fill="#EFE9DC">Noon</text>
+    <text x="805" y="3128" font-family="Playfair Display, Georgia, serif" font-style="italic" font-size="15" fill="#C9A86A">clean light, every day</text>
+    <text x="805" y="3170" font-size="11" fill="#A8997E" letter-spacing="2">TOP</text>
+    <text x="870" y="3170" font-size="13" fill="#EFE9DC" opacity="0.7">lemon, mandarin, neroli</text>
+    <text x="805" y="3210" font-size="11" fill="#A8997E" letter-spacing="2">HEART</text>
+    <text x="870" y="3210" font-size="13" fill="#EFE9DC" opacity="0.7">green tea, soft marine</text>
+    <text x="805" y="3250" font-size="11" fill="#A8997E" letter-spacing="2">BASE</text>
+    <text x="870" y="3250" font-size="13" fill="#EFE9DC" opacity="0.7">white musk, cedar, ambroxan</text>
+  </g>
+
+  <!-- ============ 5. SUSTAINABILITY ============ -->
+  <rect x="0" y="3380" width="1200" height="640" fill="#EFE9DC"/>
+  <rect x="0" y="3380" width="1200" height="640" fill="url(#grain)" opacity="0.5"/>
+  <rect x="120" y="3450" width="440" height="500" rx="22" fill="url(#atmos)"/>
+  <text x="340" y="3705" font-size="15" fill="#EFE9DC" opacity="0.7" text-anchor="middle">nature · leaves · green</text>
+  <text x="620" y="3500" font-size="13" fill="#A8997E" letter-spacing="5">HONESTLY</text>
+  <text x="618" y="3565" font-family="Playfair Display, Georgia, serif" font-size="46" font-weight="500" fill="#211E1A">sustainable</text>
+  <text x="618" y="3618" font-family="Playfair Display, Georgia, serif" font-size="46" font-style="italic" font-weight="400" fill="#9C6B3C">before it was a word.</text>
+  <text x="620" y="3668" font-size="16" fill="#211E1A" opacity="0.6">Not perfection on day one — reviving a craft that was</text>
+  <text x="620" y="3692" font-size="16" fill="#211E1A" opacity="0.6">sustainable for a thousand years before it was marketing.</text>
+  <rect x="620" y="3730" width="3" height="44" fill="#9C6B3C"/>
+  <text x="640" y="3752" font-family="Playfair Display, Georgia, serif" font-size="20" fill="#211E1A">low-energy craft</text>
+  <text x="640" y="3772" font-size="13" fill="#211E1A" opacity="0.55">gentle deg-bhapka over industrial extraction</text>
+  <rect x="620" y="3790" width="3" height="44" fill="#9C6B3C"/>
+  <text x="640" y="3812" font-family="Playfair Display, Georgia, serif" font-size="20" fill="#211E1A">upcycled botanicals</text>
+  <text x="640" y="3832" font-size="13" fill="#211E1A" opacity="0.55">spent flowers and roots given a second life</text>
+  <rect x="620" y="3850" width="3" height="44" fill="#9C6B3C"/>
+  <text x="640" y="3872" font-family="Playfair Display, Georgia, serif" font-size="20" fill="#211E1A">fair sourcing</text>
+  <text x="640" y="3892" font-size="13" fill="#211E1A" opacity="0.55">direct, fair relationships with Kannauj growers</text>
+
+  <!-- ============ 6. FIND YOUR SCENT ============ -->
+  <rect x="0" y="4020" width="1200" height="500" fill="#211E1A"/>
+  <text x="600" y="4280" font-family="Playfair Display, Georgia, serif" font-size="180" font-weight="600" fill="#EFE9DC" opacity="0.035" text-anchor="middle">listen</text>
+  <rect x="540" y="4110" width="120" height="32" rx="16" fill="none" stroke="#9C6B3C" stroke-opacity="0.6"/>
+  <text x="600" y="4131" font-size="12" fill="#9C6B3C" text-anchor="middle" letter-spacing="3">COMING SOON</text>
+  <text x="600" y="4210" font-family="Playfair Display, Georgia, serif" font-size="44" font-weight="500" fill="#EFE9DC" text-anchor="middle">you can't smell online —</text>
+  <text x="600" y="4262" font-family="Playfair Display, Georgia, serif" font-size="44" font-style="italic" fill="#9C6B3C" text-anchor="middle">so we built something that listens.</text>
+  <text x="600" y="4320" font-size="17" fill="#EFE9DC" opacity="0.7" text-anchor="middle">Answer a few questions about the moments you want to remember,</text>
+  <text x="600" y="4346" font-size="17" fill="#EFE9DC" opacity="0.7" text-anchor="middle">and we'll find your Vaasana.</text>
+  <rect x="475" y="4390" width="250" height="52" rx="26" fill="none" stroke="#9C6B3C"/>
+  <text x="600" y="4422" font-size="15" fill="#EFE9DC" text-anchor="middle">Get notified when it's live</text>
+
+  <!-- ============ 7. WAITLIST + FOOTER ============ -->
+  <rect x="0" y="4520" width="1200" height="520" fill="#211E1A"/>
+  <line x1="0" y1="4520" x2="1200" y2="4520" stroke="#EFE9DC" stroke-opacity="0.08"/>
+  <text x="600" y="4610" font-size="13" fill="#C9BFA8" letter-spacing="5" text-anchor="middle">THE WAITLIST</text>
+  <text x="600" y="4690" font-family="Playfair Display, Georgia, serif" font-size="64" font-weight="500" fill="#EFE9DC" text-anchor="middle">be one of the <tspan font-style="italic" fill="#C9A86A">first 500.</tspan></text>
+  <text x="600" y="4740" font-size="17" fill="#EFE9DC" opacity="0.7" text-anchor="middle">The founding 500 get early access, a free discovery set,</text>
+  <text x="600" y="4766" font-size="17" fill="#EFE9DC" opacity="0.7" text-anchor="middle">and a permanent founder's discount.</text>
+  <rect x="380" y="4810" width="280" height="54" rx="27" fill="#EFE9DC" fill-opacity="0.06" stroke="#EFE9DC" stroke-opacity="0.2"/>
+  <text x="405" y="4843" font-size="16" fill="#EFE9DC" opacity="0.45">your email</text>
+  <rect x="670" y="4810" width="180" height="54" rx="27" fill="#C9A86A"/>
+  <text x="760" y="4843" font-size="16" fill="#211E1A" text-anchor="middle">Claim my place</text>
+  <!-- footer -->
+  <line x1="100" y1="4940" x2="1100" y2="4940" stroke="#EFE9DC" stroke-opacity="0.1"/>
+  <text x="120" y="4995" font-family="Playfair Display, Georgia, serif" font-size="28" fill="#EFE9DC">Vaasana</text>
+  <text x="560" y="4992" font-size="14" fill="#EFE9DC" opacity="0.7">Instagram</text>
+  <text x="680" y="4992" font-size="14" fill="#EFE9DC" opacity="0.7">Pinterest</text>
+  <text x="790" y="4992" font-size="14" fill="#EFE9DC" opacity="0.7">Journal</text>
+  <text x="1080" y="4992" font-size="13" fill="#EFE9DC" opacity="0.45" text-anchor="end">made in India · born in Kannauj · 2026.</text>
+</svg>

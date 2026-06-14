@@ -413,6 +413,47 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 /* ============================================================
+   ATMOSPHERIC BAND — petals / marigold
+   ============================================================ */
+.atmos {
+  position: relative;
+  height: 60vh;
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+.atmos__img {
+  position: absolute;
+  inset: 0;
+  border-radius: 0;
+  z-index: 0;
+}
+.atmos__img::after,
+.atmos::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(33,30,26,0.55), rgba(33,30,26,0.55));
+  z-index: 1;
+}
+.atmos__line {
+  position: relative;
+  z-index: 2;
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(1.8rem, 4.6vw, 3.4rem);
+  line-height: 1.15;
+  color: var(--raw-paper);
+  max-width: 18ch;
+  padding: 0 24px;
+  text-shadow: 0 2px 30px rgba(0,0,0,0.4);
+}
+.atmos__line em { font-style: italic; font-weight: 400; color: var(--brass); }
+
+/* ============================================================
    3. THE CRAFT
    ============================================================ */
 .craft__inner {
