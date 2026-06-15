@@ -6,10 +6,10 @@
   <title>Vaasana — scent is memory, made wearable</title>
   <meta name="description" content="Vaasana — a premium Indian perfume brand born in Kannauj. Scent is memory, made wearable. Join the founding 500." />
 
-  <!-- Fonts: Playfair Display (editorial serif) + Inter (wide-tracked sans) -->
+  <!-- Fonts: Bodoni Moda (display serif, matches logo) + Fraunces (serif fallback) + Inter (wide-tracked sans) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;1,6..96,400;1,6..96,500&family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -19,7 +19,26 @@
        ============================================================ -->
   <header class="nav" id="nav">
     <nav class="nav__inner" aria-label="Primary">
-      <a class="nav__brand" href="#hero">Vaasana</a>
+      <a class="nav__brand" href="#hero" aria-label="Vaasana">
+        <svg class="nav__logo" viewBox="0 0 270 60" aria-hidden="true" focusable="false">
+          <g transform="translate(-1.27,0.73) scale(0.2927)" stroke="#C9A86A" stroke-width="3.4" fill="none">
+            <circle cx="100" cy="100" r="82"></circle>
+            <circle cx="100" cy="100" r="77.5"></circle>
+            <path d="M100 72 Q116 54 100 38 Q84 54 100 72 Z"></path>
+            <path d="M100 72 Q116 54 100 38 Q84 54 100 72 Z" transform="rotate(45 100 100)"></path>
+            <path d="M100 72 Q116 54 100 38 Q84 54 100 72 Z" transform="rotate(90 100 100)"></path>
+            <path d="M100 72 Q116 54 100 38 Q84 54 100 72 Z" transform="rotate(135 100 100)"></path>
+            <path d="M100 72 Q116 54 100 38 Q84 54 100 72 Z" transform="rotate(180 100 100)"></path>
+            <path d="M100 72 Q116 54 100 38 Q84 54 100 72 Z" transform="rotate(225 100 100)"></path>
+            <path d="M100 72 Q116 54 100 38 Q84 54 100 72 Z" transform="rotate(270 100 100)"></path>
+            <path d="M100 72 Q116 54 100 38 Q84 54 100 72 Z" transform="rotate(315 100 100)"></path>
+            <path d="M100 76 L120.78 112 L79.22 112 Z"></path>
+            <path d="M100 124 L120.78 88 L79.22 88 Z"></path>
+            <circle cx="100" cy="100" r="3.4" fill="#C9A86A" stroke="none"></circle>
+          </g>
+          <text x="64" y="41" font-family="'Bodoni Moda','Fraunces',Georgia,serif" font-weight="600" font-size="30" letter-spacing="6" fill="#EFE9DC">VAASANA</text>
+        </svg>
+      </a>
       <ul class="nav__links">
         <li><a href="#collection">The collection</a></li>
         <li><a href="#story">Story</a></li>
@@ -36,7 +55,7 @@
     <section class="hero section--dark" id="hero">
       <span class="watermark watermark--hero" aria-hidden="true">vaasana</span>
 
-      <div class="hero__grid">
+      <div class="hero__inner">
         <div class="hero__copy reveal">
           <p class="eyebrow">born in Kannauj</p>
           <h1 class="hero__title">
@@ -64,12 +83,6 @@
             <p class="capture__msg" data-capture-msg role="status" aria-live="polite"></p>
           </form>
         </div>
-
-        <div class="hero__media reveal">
-          <figure class="media-frame" data-img="hero">
-            <!-- img injected from IMG config in app.js -->
-          </figure>
-        </div>
       </div>
 
       <span class="scroll-hint" aria-hidden="true">scroll</span>
@@ -78,7 +91,7 @@
     <!-- ============================================================
          2. THE MEMORY IDEA
          ============================================================ -->
-    <section class="section memory" id="story">
+    <section class="section memory section--light" id="story">
       <span class="watermark watermark--memory" aria-hidden="true">memory</span>
 
       <div class="memory__inner">
@@ -113,7 +126,7 @@
     <!-- ============================================================
          3. THE CRAFT
          ============================================================ -->
-    <section class="section craft section--light" id="kannauj">
+    <section class="section craft section--dark" id="kannauj">
       <span class="watermark watermark--craft" aria-hidden="true">kannauj</span>
 
       <div class="craft__inner">
@@ -151,7 +164,7 @@
     <!-- ============================================================
          4. THE COLLECTION
          ============================================================ -->
-    <section class="section collection section--dark" id="collection">
+    <section class="section collection section--light" id="collection">
       <span class="watermark watermark--collection" aria-hidden="true">scents</span>
 
       <div class="collection__inner">
@@ -213,7 +226,7 @@
     <!-- ============================================================
          5. SUSTAINABILITY
          ============================================================ -->
-    <section class="section sustain section--light" id="sustainability">
+    <section class="section sustain section--dark" id="sustainability">
       <span class="watermark watermark--sustain" aria-hidden="true">honest</span>
 
       <div class="sustain__inner">
@@ -242,7 +255,7 @@
     <!-- ============================================================
          6. FIND YOUR SCENT (coming soon)
          ============================================================ -->
-    <section class="section find" id="find">
+    <section class="section find section--light" id="find">
       <span class="watermark watermark--find" aria-hidden="true">listen</span>
 
       <div class="find__inner reveal">
@@ -299,8 +312,6 @@
       <a class="footer__brand" href="#hero">Vaasana</a>
       <nav class="footer__social" aria-label="Social">
         <a href="#" rel="nofollow">Instagram</a>
-        <a href="#" rel="nofollow">Pinterest</a>
-        <a href="#" rel="nofollow">Journal</a>
       </nav>
       <p class="footer__line">made in India · born in Kannauj · 2026.</p>
     </div>
