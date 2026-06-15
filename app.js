@@ -14,7 +14,7 @@
    When `src` is set it wins; otherwise we build a source.unsplash.com URL
    from { w, h, keywords }.
 
-   In markup, attach an image with:  <figure data-img="hero"></figure>
+   In markup, attach an image with:  <figure data-img="baarish"></figure>
 
    NOTE ON THE `src` URLS BELOW:
    These are hand-picked images.unsplash.com photo IDs (the non-deprecated,
@@ -31,29 +31,27 @@ function u(id, w, h) {
 }
 
 const IMAGES = {
-  hero: {
-    w: 1600, h: 1200,
-    keywords: "perfume,bottle,dark,moody",
-    alt: "A dark, moody studio shot of a Vaasana perfume bottle",
-    src: u("photo-1592945403244-b3fbafd7f539", 1600, 1200),
-  },
+  /* The hero is now a full-bleed SVG background (see .hero in styles.css),
+     so it no longer needs an entry here. */
+
+  /* Collection bottles — local brand SVGs in /public (1600x1100 scenes). */
   baarish: {
-    w: 800, h: 1000,
+    w: 1600, h: 1100,
     keywords: "perfume,bottle,dark",
-    alt: "Baarish perfume bottle on a dark surface",
-    src: u("photo-1541643600914-78b084683601", 800, 1000),
+    alt: "Baarish — perfume bottle in a first-rain scene",
+    src: "public/VAASANA-Baarish.svg",
   },
   riwaayat: {
-    w: 800, h: 1000,
+    w: 1600, h: 1100,
     keywords: "amber,perfume,bottle",
-    alt: "Riwaayat perfume bottle glowing amber",
-    src: u("photo-1615634260167-c8cdede054de", 800, 1000),
+    alt: "Riwaayat — perfume bottle in a warm, inherited glow",
+    src: "public/VAASANA-Riwaayat.svg",
   },
   noon: {
-    w: 800, h: 1000,
+    w: 1600, h: 1100,
     keywords: "perfume,minimal,clear",
-    alt: "Noon perfume bottle, clean and minimal in clear glass",
-    src: u("photo-1588405748880-12d1d2a59f75", 800, 1000),
+    alt: "Noon — perfume bottle in clean daylight",
+    src: "public/VAASANA-Noon.svg",
   },
   craftStill: {
     w: 1200, h: 800,
